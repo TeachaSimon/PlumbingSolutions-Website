@@ -1,0 +1,937 @@
+
+<!doctype html>
+<html>
+
+
+<head>
+<meta charset="utf-8">
+<!--The below meta tag is needed to allow responsive size for mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--The below tag loads joomla css and more-->
+<base  />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Kasarani-Mwiki Road, Mwiki, Hills plumbing company" />
+	<meta name="author" content="Super User" />
+	<meta name="description" content="We are located in Kasarani,Mwiki #17B Road, Nairobi." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Hills Plumbing Solutions</title>
+	<link href="templates/plumbingsolutions/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="components/com_breezingforms/libraries/jquery/tooltip.css" rel="stylesheet" type="text/css" />
+	<link href="plugins/system/plugin_googlemap3/plugin_googlemap3.css.html" rel="stylesheet" type="text/css" />
+	<link href="media/jui/css/bootstrap.min9f9a.css?7144932ca98d565573e3868266ee1eee" rel="stylesheet" type="text/css" />
+	<link href="media/jui/css/bootstrap-responsive.min9f9a.css?7144932ca98d565573e3868266ee1eee" rel="stylesheet" type="text/css" />
+	<link href="media/jui/css/bootstrap-extended9f9a.css?7144932ca98d565573e3868266ee1eee" rel="stylesheet" type="text/css" />
+	<link href="modules/mod_slideshowck/themes/default/css/camera.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+
+
+.bfClearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.bfInline{
+float:left;
+}
+.bfFadingClass{
+display:none;
+}
+#camera_wrap_93 .camera_pag_ul li img, #camera_wrap_93 .camera_thumbs_cont ul li > img {height:75px;}
+#camera_wrap_93 .camera_caption {
+	display: block;
+	position: absolute;
+}
+#camera_wrap_93 .camera_caption > div {
+	
+}
+#camera_wrap_93 .camera_caption > div div.camera_caption_title {
+	
+}
+#camera_wrap_93 .camera_caption > div div.camera_caption_desc {
+	
+}
+
+@media screen and (max-width: 480px) {
+		#camera_wrap_93 .camera_caption {
+			font-size: 0.6em !important;
+		}
+}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"7d375b58aac565e28cdb34003bab7f0b","system.paths":{"root":"","base":""}}</script>
+	
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyAHGyZ7u2UMTMW1KrJ34AxSyznt9NktOsc&amp;language=en-GB&amp;libraries=places'></script>
+<script src="media/system/js/mootools-core9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/system/js/core9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/system/js/mootools-more9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/jui/js/jquery.min9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/jui/js/jquery-noconflict9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/jui/js/jquery-migrate.min9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="components/com_breezingforms/libraries/jquery/jq.min.js" type="text/javascript"></script>
+	<script src="components/com_breezingforms/libraries/jquery/tooltip.js" type="text/javascript"></script>
+	<script src="media/system/js/caption9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/plugin_googlemap3/site/googlemaps/googlemapsv3.js" type="text/javascript"></script>
+	<script src="media/jui/js/bootstrap.min9f9a.js?7144932ca98d565573e3868266ee1eee" type="text/javascript"></script>
+	<script src="media/com_slideshowck/assets/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="media/com_slideshowck/assets/camera.min4a00.js?ver=2.3.14" type="text/javascript"></script>
+	<script type="text/javascript">
+<!--
+			var inlineErrorElements = new Array();
+			var bfSummarizers = new Array();
+			var bfDeactivateField = new Array();
+			var bfDeactivateSection = new Array();
+			
+
+                        function bf_validate_nextpage(element, action)
+                        {
+                            if(typeof bfUseErrorAlerts != "undefined"){
+                             JQuery(".bfErrorMessage").html("");
+                             JQuery(".bfErrorMessage").css("display","none");
+                            }
+
+                            error = ff_validation(ff_currentpage);
+                            if (error != "") {
+                               if(typeof bfUseErrorAlerts == ""){
+                                   alert(error);
+                                } else {
+                                   bfShowErrors(error);
+                                }
+                                ff_validationFocus("");
+                            } else {
+                                ff_switchpage(ff_currentpage+1);
+                                self.scrollTo(0,0);
+                            }
+                        }
+
+			function bfCheckMaxlength(id, maxlength, showMaxlength){
+				if( JQuery("#ff_elem"+id).val().length > maxlength ){
+					JQuery("#ff_elem"+id).val( JQuery("#ff_elem"+id).val().substring(0, maxlength) );
+				}
+				if(showMaxlength){
+					JQuery("#bfMaxLengthCounter"+id).text( "(" + (maxlength - JQuery("#ff_elem"+id).val().length) + " chars left)" );
+				}
+			}
+			function bfRegisterSummarize(id, connectWith, type, emptyMessage, hideIfEmpty){
+				bfSummarizers.push( { id : id, connectWith : connectWith, type : type, emptyMessage : emptyMessage, hideIfEmpty : hideIfEmpty } );
+			}
+			function bfField(name){
+				var value = "";
+				switch(ff_getElementByName(name).type){
+					case "radio":
+						if(JQuery("[name=\""+ff_getElementByName(name).name+"\"]:checked").val() != "" && typeof JQuery("[name=\""+ff_getElementByName(name).name+"\"]:checked").val() != "undefined"){
+							value = JQuery("[name=\""+ff_getElementByName(name).name+"\"]:checked").val();
+							if(!isNaN(value)){
+								value = Number(value);
+							}
+						}
+						break;
+					case "checkbox":
+					case "select-one":
+					case "select-multiple":
+						var nodeList = document["ff_form2"][""+ff_getElementByName(name).name+""];
+						if(ff_getElementByName(name).type == "checkbox" && typeof nodeList.length == "undefined"){
+							if(typeof JQuery("[name=\""+ff_getElementByName(name).name+"\"]:checked").val() != "undefined"){
+								value = JQuery("[name=\""+ff_getElementByName(name).name+"\"]:checked").val();
+								if(!isNaN(value)){
+									value = Number(value);
+								}
+							}
+						} else {
+							var val = "";
+							for(var j = 0; j < nodeList.length; j++){
+								if(nodeList[j].checked || nodeList[j].selected){
+									val += nodeList[j].value + ", ";
+								}
+							}
+							if(val != ""){
+								value = val.substr(0, val.length - 2);
+								if(!isNaN(value)){
+									value = Number(value);
+								}
+							}
+						}
+						break;
+					default:
+						if(!isNaN(ff_getElementByName(name).value)){
+							value = Number(ff_getElementByName(name).value);
+						} else {
+							value = ff_getElementByName(name).value;
+						}
+				}
+				return value;
+			}
+			function populateSummarizers(){
+				// cleaning first
+
+				for(var i = 0; i < bfSummarizers.length; i++){
+					JQuery("#"+bfSummarizers[i].id).parent().css("display", "");
+					JQuery("#"+bfSummarizers[i].id).html("<span class=\"bfNotAvailable\">"+bfSummarizers[i].emptyMessage+"</span>");
+				}
+				for(var i = 0; i < bfSummarizers.length; i++){
+					var summVal = "";
+					switch(bfSummarizers[i].type){
+						case "bfTextfield":
+						case "bfTextarea":
+						case "bfHidden":
+						case "bfCalendar":
+						case "bfNumberInput":
+                        case "bfCalendarResponsive":
+						case "bfFile":
+							if(JQuery("[name=\"ff_nm_"+bfSummarizers[i].connectWith+"[]\"]").val() != ""){
+								JQuery("#"+bfSummarizers[i].id).text( JQuery("[name=\"ff_nm_"+bfSummarizers[i].connectWith+"[]\"]").val() ).html();
+								var breakableText = JQuery("#"+bfSummarizers[i].id).html().replace(/\r/g, "").replace(/\n/g, "<br/>");
+
+								if(breakableText != ""){
+									var calc = null;
+									eval( "calc = typeof bfFieldCalc"+bfSummarizers[i].id+" != \"undefined\" ? bfFieldCalc"+bfSummarizers[i].id+" : null" );
+									if(calc){
+										breakableText = calc(breakableText);
+									}
+								}
+
+								JQuery("#"+bfSummarizers[i].id).html(breakableText);
+								summVal = breakableText;
+							}
+						break;
+						case "bfRadioGroup":
+						case "bfCheckbox":
+							if(JQuery("[name=\"ff_nm_"+bfSummarizers[i].connectWith+"[]\"]:checked").val() != "" && typeof JQuery("[name=\"ff_nm_"+bfSummarizers[i].connectWith+"[]\"]:checked").val() != "undefined"){
+								var theText = JQuery("[name=\"ff_nm_"+bfSummarizers[i].connectWith+"[]\"]:checked").val();
+								if(theText != ""){
+									var calc = null;
+									eval( "calc = typeof bfFieldCalc"+bfSummarizers[i].id+" != \"undefined\" ? bfFieldCalc"+bfSummarizers[i].id+" : null" );
+									if(calc){
+										theText = calc(theText);
+									}
+								}
+								JQuery("#"+bfSummarizers[i].id).html( theText );
+								summVal = theText;
+							}
+						break;
+						case "bfCheckboxGroup":
+						case "bfSelect":
+							var val = "";
+							var nodeList = document["ff_form2"]["ff_nm_"+bfSummarizers[i].connectWith+"[]"];
+
+							for(var j = 0; j < nodeList.length; j++){
+								if(nodeList[j].checked || nodeList[j].selected){
+									val += nodeList[j].value + ", ";
+								}
+							}
+							if(val != ""){
+								var theText = val.substr(0, val.length - 2);
+								if(theText != ""){
+									var calc = null;
+									eval( "calc = typeof bfFieldCalc"+bfSummarizers[i].id+" != \"undefined\" ? bfFieldCalc"+bfSummarizers[i].id+" : null" );
+									if(calc){
+										theText = calc(theText);
+									}
+								}
+								JQuery("#"+bfSummarizers[i].id).html( theText );
+								summVal = theText;
+							}
+						break;
+					}
+
+					if( ( bfSummarizers[i].hideIfEmpty && summVal == "" ) || ( typeof bfDeactivateField != "undefined" && bfDeactivateField["ff_nm_"+bfSummarizers[i].connectWith+"[]"] ) ){
+                        JQuery("#"+bfSummarizers[i].id).parent().css("display", "none");
+					} else {
+                        JQuery("#"+bfSummarizers[i].id).parent().css("display", "block");
+					}
+				}
+			}
+
+var bfUseErrorAlerts = false;
+
+				function bfShowErrors(error){
+                                        JQuery(".bfErrorMessage").html("");
+					JQuery(".bfErrorMessage").css("display","none");
+					JQuery(".bfErrorMessage").fadeIn(1500);
+					var allErrors = "";
+					var errors = error.split("\n");
+					for(var i = 0; i < errors.length; i++){
+						allErrors += "<div class=\"bfError\">" + errors[i] + "</div>";
+					}
+					JQuery(".bfErrorMessage").html(allErrors);
+					JQuery(".bfErrorMessage").css("display","");
+
+                                        if(JQuery.bfvalidationEngine)
+                                        {
+                                            JQuery("#ff_form2").bfvalidationEngine({
+                                              promptPosition: "bottomLeft",
+                                              success :  false,
+                                              failure : function() {}
+                                            });
+
+                                            for(var i = 0; i < inlineErrorElements.length; i++)
+                                            {
+                                                if(inlineErrorElements[i][1] != "")
+                                                {
+                                                    var prompt = null;
+
+                                                    if(inlineErrorElements[i][0] == "bfCaptchaEntry"){
+                                                        prompt = JQuery.bfvalidationEngine.buildPrompt("#bfCaptchaEntry",inlineErrorElements[i][1],"error");
+                                                    }
+                                                    else if(inlineErrorElements[i][0] == "bfReCaptchaEntry"){
+                                                        // nothing here yet for recaptcha, alert is default
+                                                        alert(inlineErrorElements[i][1]);
+                                                    }
+                                                    else if(typeof JQuery("#bfUploader"+inlineErrorElements[i][0]).get(0) != "undefined")
+                                                    {
+                                                        alert(inlineErrorElements[i][1]);
+                                                        //prompt = JQuery.bfvalidationEngine.buildPrompt("#"+JQuery("#bfUploader"+inlineErrorElements[i][0]).val(),inlineErrorElements[i][1],"error");
+                                                    }
+                                                    else if(typeof JQuery(".bfSignature"+inlineErrorElements[i][0]).get(0) != "undefined")
+                                                    {
+                                                    	//alert(inlineErrorElements[i][1]);
+                                                    	prompt = JQuery.bfvalidationEngine.buildPrompt(".bfSignature",inlineErrorElements[i][1],"error");
+                                                    }
+                                                    else
+                                                    {
+                                                        if(ff_getElementByName(inlineErrorElements[i][0])){
+                                                            prompt = JQuery.bfvalidationEngine.buildPrompt("#"+ff_getElementByName(inlineErrorElements[i][0]).id,inlineErrorElements[i][1],"error");
+                                                        }else{
+                                                            alert(inlineErrorElements[i][1]);
+                                                        }
+                                                    }
+
+                                                    JQuery(prompt).mouseover(
+                                                        function(){
+                                                            var inlineError = JQuery(this).attr("class").split(" ");
+                                                            if(inlineError && inlineError.length && inlineError.length == 2){
+                                                                var result = inlineError[1].split("formError");
+                                                                if(result && result.length && result.length >= 1){
+                                                                    JQuery.bfvalidationEngine.closePrompt("#"+result[0]);
+                                                                }
+                                                            }
+                                                        }
+                                                    );
+                                                }
+                                                else
+                                                {
+                                                    if(typeof JQuery("#bfUploader"+inlineErrorElements[i][0]).get(0) != "undefined")
+                                                    {
+                                                        //JQuery.bfvalidationEngine.closePrompt("#"+JQuery("#bfUploader"+inlineErrorElements[i][0]).val());
+                                                    }
+                                                    else
+                                                    {
+                                                        if(ff_getElementByName(inlineErrorElements[i][0])){
+                                                            JQuery.bfvalidationEngine.closePrompt("#"+ff_getElementByName(inlineErrorElements[i][0]).id);
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            inlineErrorElements = new Array();
+                                        }
+				}
+					var bfElemWrapBg = "";
+					function bfSetElemWrapBg(){
+						bfElemWrapBg = JQuery(".bfElemWrap").css("background-color");
+					}
+					function bfRollover() {
+						JQuery(".ff_elem").focus(
+							function(){
+								var parent = JQuery(this).parent();
+								if(parent && parent.attr("class").substr(0, 10) == "bfElemWrap"){
+									parent.css("background","#ffc");
+								} else {
+									parent = JQuery(this).parent().parent();
+									parent.css("background","#ffc");
+								}
+                                                                parent.addClass("bfRolloverBg");
+							}
+						).blur(
+							function(){
+								var parent = JQuery(this).parent();
+								if(parent && parent.attr("class").substr(0, 10) == "bfElemWrap"){
+									parent.css("background",bfElemWrapBg);
+								} else {
+									parent = JQuery(this).parent().parent();
+									parent.css("background",bfElemWrapBg);
+								}
+                                                                parent.removeClass("bfRolloverBg");
+							}
+						);
+					}
+					function bfRollover2() {
+						JQuery(".bfElemWrap").mouseover(
+							function(){
+								JQuery(this).css("background","#ffc");
+                                                                JQuery(this).addClass("bfRolloverBg");
+							}
+						);
+						JQuery(".bfElemWrap").mouseout(
+							function(){
+								JQuery(this).css("background",bfElemWrapBg);
+                                                                JQuery(this).removeClass("bfRolloverBg");
+							}
+						);
+					}
+				
+		    bfToggleFieldsLoaded = false;
+		    bfSectionFieldsDeactivated = false;
+			JQuery(document).ready(function() {
+			    if(typeof bfFade != "undefined")bfFade();
+				if(typeof bfSetElemWrapBg != "undefined")bfSetElemWrapBg();
+				if(typeof bfRollover != "undefined")bfRollover();
+				if(typeof bfRollover2 != "undefined")bfRollover2();
+				if(typeof bfRegisterToggleFields != "undefined"){ 
+				    bfRegisterToggleFields(); 
+                }else{
+                    bfToggleFieldsLoaded = true;
+                }
+				if(typeof bfDeactivateSectionFields != "undefined"){ 
+				    bfDeactivateSectionFields(); 
+				}else{
+				    bfSectionFieldsDeactivated = true;
+				}
+                if(JQuery.bfvalidationEngine)
+                {
+                    JQuery.bfvalidationEngineLanguage.newLang();
+                    JQuery(".ff_elem").change(
+                        function(){
+                            JQuery.bfvalidationEngine.closePrompt(this);
+                        }
+                    );
+                }
+				JQuery(".bfQuickMode .hasTip").css("color","inherit"); // fixing label text color issue
+				JQuery(".bfQuickMode .bfTooltip").css("color","inherit"); // fixing label text color issue
+                JQuery("input[type=text]").bind("keypress", function(evt) {
+                    if(evt.keyCode == 13) {
+                        evt.preventDefault();
+                    }
+                });
+			});
+		
+//-->
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+		jQuery(document).ready(function(){
+			new Slideshowck('#camera_wrap_93', {
+				height: '48%',
+				minHeight: '150',
+				pauseOnClick: false,
+				hover: 1,
+				fx: 'simpleFade',
+				loader: 'bar',
+				pagination: 0,
+				thumbnails: 0,
+				thumbheight: 75,
+				thumbwidth: 100,
+				time: 7000,
+				transPeriod: 1500,
+				alignment: 'center',
+				autoAdvance: 1,
+				mobileAutoAdvance: 1,
+				portrait: 0,
+				barDirection: 'leftToRight',
+				imagePath: '/media/com_slideshowck/images/',
+				lightbox: 'mediaboxck',
+				fullpage: 0,
+				mobileimageresolution: '0',
+				navigationHover: true,
+				mobileNavHover: true,
+				navigation: true,
+				playPause: true,
+				barPosition: 'bottom',
+				responsiveCaption: 0,
+				keyboardNavigation: 0,
+				titleInThumbs: 0,
+				container: ''
+		});
+}); 
+
+	</script>
+	<link rel="stylesheet" href="components/com_breezingforms/themes/quickmode/system.css" />
+	<!--[if IE 7]>
+<link rel="stylesheet" href="/components/com_breezingforms/themes/quickmode/system.ie7.css" />
+<![endif]-->
+	<!--[if IE 6]>
+<link rel="stylesheet" href="/components/com_breezingforms/themes/quickmode/system.ie6.css" />
+<![endif]-->
+	<!--[if IE]>
+<link rel="stylesheet" href="/components/com_breezingforms/themes/quickmode/system.ie.css" />
+<![endif]-->
+	<link rel="stylesheet" href="media/breezingforms/themes/default/theme.css" />
+
+<!--The below script allow older browser to read html5-->
+	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+
+
+
+  <link href="templates/plumbingsolutions/css/custom.css" rel="stylesheet" type="text/css">
+  <link href="templates/plumbingsolutions/css/mobile.css" rel="stylesheet" type="text/css">
+  <link href='../fonts.googleapis.com/css122b.css?family=Muli' rel='stylesheet' type='text/css'>
+</head>
+
+<body>  <!--CONTAINER COMPANY HEADER-->
+<div class="row-fluid Container CompanyHeader">
+<div class="span12">
+
+<!--Wrapper-->
+<div class="row-fluid wrapper">
+<!--Logo-->
+<div class="span8 logo">
+	<a href="index.html"><img src="templates/plumbingsolutions/images/plumbing-solutions_logo.png" alt="Plumbing Solutions., click for home."> </a>
+    <h1><a href="index.html">Plumbing Solutions</a></h1>
+</div><!--end of logo-->
+  
+<!--Social-->
+<div class="span4 social">
+			<div class="moduletable">
+
+		
+			
+
+<div class="custom"  >
+	<p><span style="color: #fff200;">EMERGENCY HOTLINE</span><br />+254759228092</p>
+<p>Office Number<br />+254794396005</p></div>
+
+		</div>
+
+	
+</div><!--end of social--> 
+  
+  
+  
+</div> 
+<!--end of wrapper-->
+
+</div>
+</div>
+
+<!--CONTAINER MENU-->
+<div class="row-fluid Container MenuArea">
+<div class="span12">
+
+<!--Wrapper-->
+<div class="row-fluid wrapper adjustMenu">
+<!--Navigation-->
+ <nav class="span12 navbar">
+    <div class="navbar-inner">
+      <div class="container-fluid"> 
+		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span> 
+		</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav menu mod-list">
+<li class="item-116 default"><a href="index.html" >Home</a></li><li class="item-102 deeper parent"><a href="services.html" >Services</a><ul class="nav-child unstyled small"><li class="item-108"><a href="services/schedule-a-plumber.html" >Schedule a Plumber</a></li><li class="item-109"><a href="services/schedule-an-estimate.html" >Schedule an Estimate</a></li><li class="item-111"><a href="services/referral-program.html" >Referral Program</a></li></ul></li><li class="item-103"><a href="products.html" >Products</a></li><li class="item-104 deeper parent"><a href="about-us.html" >About Us</a><ul class="nav-child unstyled small"><li class="item-105"><a href="about-us/our-guarantee.html" >Our Guarantee</a></li><li class="item-106"><a href="about-us/our-plumbers.html" >Our Plumbers</a></li></ul></li><li class="item-110"><a href="career.html" >Career</a></li><li class="item-107 current active"><a href="contact.html" >Contact</a></li><li class="item-123 deeper parent"><a href="tips-and-advice.html" >Tips and Advice</a><ul class="nav-child unstyled small"><li class="item-124"><a href="tips-and-advice/kitchen.html" >Kitchen</a></li><li class="item-125"><a href="tips-and-advice/bathroom.html" >Bathroom</a></li><li class="item-126"><a href="tips-and-advice/water-conservation.html" >Water Conservation</a></li></ul></li><li class="item-101"><a href="news.html" >News</a></li><li class="item-121"><a href="gallery.html" >Gallery</a></li></ul>
+
+        </div>
+      </div>
+    </div>
+  </nav> 
+<!--end of navigation-->
+</div> 
+<!--end of wrapper-->
+
+</div>
+</div>
+
+  	<!--CONTAINER BANNER/CONTENT-->
+<div class="row-fluid Container ContentArea">
+<div class="span12">
+ 
+<!--Wrapper-->
+<div class="row-fluid wrapper">
+
+<!--Banner-->
+<div class="span12 banner">
+			<div class="moduletable">
+
+		
+			<div class="slideshowck  camera_wrap camera_blue_skin" id="camera_wrap_93">
+			<div data-alt="" data-thumb="/images/photos/slideshow/slideshow2.jpg" data-src="images/photos/slideshow/slideshow2.jpg" >
+								</div>
+		<div data-alt="" data-thumb="/images/photos/slideshow/slideshow-1.jpg" data-src="images/photos/slideshow/slideshow-1.jpg" >
+								</div>
+</div>
+<div style="clear:both;"></div>
+
+		</div>
+
+	
+</div><!--end of banner-->
+  </div> 
+<!--end of wrapper-->
+	 
+</div>
+</div>  
+  
+<div class="row-fluid Container ContentArea">
+<div class="span12">  
+<div class="row-fluid wrapper">  
+<!--Content-->
+<div class="span12 content">
+		<div id="system-message-container">
+	</div>
+
+		<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+		
+						
+		
+	
+	
+		
+								<div itemprop="articleBody">
+		<h1>Hills Plumbing Solutions, Contact Us Today!</h1>
+<p>Have any questions for us? Please use the form below to send us a message.</p>
+<p><strong>Address: </strong>#41 Mucurapo Road, St James, Trinidad</p>
+<p><strong>Telephone: </strong>+254759228092</p>
+<p><strong>Emergency Hotline:</strong> +254794396005</p>
+<p><strong>Fax: </strong>+254759228092</p>
+<p>
+
+<div class="bfClearfix">
+<script type="text/javascript">
+<!--
+ff_processor=new Object();ff_processor.okrun=true;ff_processor.ip='102.68.79.227';ff_processor.agent='Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)';ff_processor.browser='Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)';ff_processor.opsys='win';
+ff_processor.provider='Unknown';ff_processor.submitted='2023-09-21 09:10:10';ff_processor.form=2;ff_processor.form_id='ff_form2';ff_processor.page=1;ff_processor.target=2;ff_processor.runmode=0;ff_processor.inframe=0;ff_processor.inline=0;ff_processor.template=0;
+ff_processor.homepage='index.html';ff_processor.mossite='index.html';ff_processor.images='components/com_breezingforms/images/index.html';ff_processor.border='';ff_processor.align='';
+ff_processor.top='';ff_processor.suffix='';ff_processor.status=null;ff_processor.message=null;ff_processor.record_id=null;ff_processor.showgrid=false;ff_processor.traceBuffer=null;
+//-->
+</script>
+<script type="text/javascript" src="components/com_breezingforms/facileforms.js"></script>
+<table style="display:none;width:100%;" id="bfReCaptchaWrap"><tr><td><div id="bfReCaptchaDiv"></div></td></tr></table><div id="ff_formdiv2" class="bfFormDiv"><div class="bfPage-tl"><div class="bfPage-tr"><div class="bfPage-t"></div></div></div><div class="bfPage-l"><div class="bfPage-r"><div class="bfPage-m bfClearfix">
+<script type="text/javascript">
+<!--
+
+function checkFileExtensions(){
+			return true;
+		}
+		
+
+				function bfAjaxObject101() {
+					this.createRequestObject = function() {
+						try {
+							var ro = new XMLHttpRequest();
+						}
+						catch (e) {
+							var ro = new ActiveXObject("Microsoft.XMLHTTP");
+						}
+						return ro;
+					}
+					this.sndReq = function(action, url, data) {
+						if (action.toUpperCase() == "POST") {
+							this.http.open(action,url,true);
+							this.http.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+							this.http.onreadystatechange = this.handleResponse;
+							this.http.send(data);
+						}
+						else {
+							this.http.open(action,url + "?" + data,true);
+							this.http.onreadystatechange = this.handleResponse;
+							this.http.send(null);
+						}
+					}
+					this.handleResponse = function() {
+						if ( me.http.readyState == 4) {
+							if (typeof me.funcDone == "function") { me.funcDone();}
+							var rawdata = me.http.responseText.split("|");
+							for ( var i = 0; i < rawdata.length; i++ ) {
+								var item = (rawdata[i]).split("=>");
+								if (item[0] != "") {
+									if (item[1].substr(0,3) == "%V%" ) {
+										document.getElementById(item[0]).value = item[1].substring(3);
+									}
+									else {
+										if(item[1] == "true"){
+                                                                                    if(typeof bfDoFlashUpload != 'undefined'){
+                                                                                        bfDoFlashUpload();
+                                                                                    } else {
+									   		ff_submitForm2();
+                                                                                    }
+									   } else {
+                                                                                if(typeof JQuery != "undefined" && JQuery("#bfSubmitMessage"))
+									        {
+                                                                                    JQuery("#bfSubmitMessage").css("visibility","hidden");
+                                                                                    JQuery("#bfSubmitMessage").css("display","none");
+									        }
+                                                                                if(typeof bfUseErrorAlerts == "undefined"){
+                                                                                    alert("The captcha is missing or wrong!");
+									        } else {
+                                                                                   if(typeof inlineErrorElements != "undefined"){
+                                                                                     inlineErrorElements.push(["bfCaptchaEntry","The captcha is missing or wrong!"]);
+                                                                                   }
+									           bfShowErrors("The captcha is missing or wrong!");
+									        }
+                                                                                if(typeof ladda_button != "undefined"){
+                                                                                    
+                                                                                    bf_restore_submitbutton();
+                                                                                }
+                                                                                
+											document.getElementById('ff_capimgValue').src = 'components/com_breezingforms/images/captcha/securimage_show6ab9.png?bfMathRandom=' + Math.random();
+											document.getElementById('bfCaptchaEntry').value = "";
+											if(ff_currentpage != 1)ff_switchpage(1);
+											document.getElementById('bfCaptchaEntry').focus();
+                                                                                        if(document.getElementById("bfSubmitButton")){
+                                                                                            document.getElementById("bfSubmitButton").disabled = false;
+                                                                                        }
+                                                                                        if(typeof JQuery != "undefined"){JQuery(".bfCustomSubmitButton").prop("disabled", false);}
+										}
+                                                                                
+									}
+								}
+							}
+						}
+						if ((me.http.readyState == 1) && (typeof me.funcWait == "function")) { me.funcWait(); }
+					}
+					var me = this;
+					this.http = this.createRequestObject();
+
+					var funcWait = null;
+					var funcDone = null;
+				}
+
+				function bfCheckCaptcha(){
+					if(checkFileExtensions()){
+                                               var ao = new bfAjaxObject101();
+                                               ao.sndReq("get","/component/breezingforms/raw/true/checkCaptcha/true/tmpl/component?raw=true&checkCaptcha=true&Itemid=0&tmpl=component&value="+document.getElementById("bfCaptchaEntry").value,"");
+					}
+				}function ff_initialize(condition)
+{}
+onload=function()
+{ff_initialize('formentry');ff_initialize('pageentry');if(ff_processor&&ff_processor.traceBuffer)ff_traceWindow();}
+var ff_currentpage=1;
+function ff_switchpage(page){if(document.getElementById("bfPage1"))document.getElementById("bfPage1").style.display="none";if(document.getElementById("bfPage2"))document.getElementById("bfPage2").style.display="none";if(document.getElementById("bfPage"+page))document.getElementById("bfPage"+page).style.display="";
+ff_currentpage=page;ff_initialize("pageentry");}
+function ff_Contact_Form_submitted(status,message){if(status==0){ff_switchpage(2);}else{alert(message);}}
+var ff_validationFocusName='';
+var ff_elements=[['ff_elem699','ff_div699','bfFakeName4',1,699],['ff_elem698','ff_div698','bfFakeName3',1,698],['ff_elem696','ff_div696','bfFakeName',1,696],['ff_elem697','ff_div697','bfFakeName2',1,697],['ff_elem481','ff_div481','Firstname',1,481],['ff_elem482','ff_div482','Lastname',1,482],
+['ff_elem487','ff_div487','Phone_01',1,487],['ff_elem488','ff_div488','Email',1,488],['ff_elem489','ff_div489','Massage',1,489],['ff_elem499','ff_div499','Security',1,499]
+];
+function ff_getElementByName(name)
+{if(name.substr(0,6)=='ff_nm_')name=name.substring(6,name.length-2);for(var i=0;i<ff_elements.length;i++)
+if(ff_elements[i][2]==name)
+return eval('document.ff_form2.'+ff_elements[i][0]);return null;}
+function ff_getPageByName(name)
+{if(name.substr(0,6)=='ff_nm_')name=name.substring(6,name.length-2);for(var i=0;i<ff_elements.length;i++)
+if(ff_elements[i][2]==name)
+return ff_elements[i][3];return 0;}
+function ff_validationFocus(name)
+{if(name==undefined||name==''){if(ff_validationFocusName!=''){ff_switchpage(ff_getPageByName(ff_validationFocusName));if(ff_getElementByName(ff_validationFocusName).focus){ff_getElementByName(ff_validationFocusName).focus();}}}else{if(ff_validationFocusName=='')
+ff_validationFocusName=name;}}
+function ff_validemail(element,message)
+{var check=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;if(!check.test(element.value)){if(message=='')message=element.name+" is no valid email address.\n";ff_validationFocus(element.name);return message;}return '';}
+function ff_valuenotempty(element,message)
+{if(element.value!='')return '';if(message=='')message="Please enter "+element.name+".\n";ff_validationFocus(element.name);return message;}
+function ff_validation(page)
+{if(typeof inlineErrorElements!='undefined')inlineErrorElements=new Array();error='';ff_validationFocusName='';if(page==1||page==0){if(typeof bfDeactivateField=='undefined'||!bfDeactivateField['ff_nm_Firstname[]']){errorout=ff_valuenotempty(document.ff_form2['ff_nm_Firstname[]'],"Please enter your first name.\n");
+error+=errorout
+if(typeof inlineErrorElements!='undefined'){inlineErrorElements.push(["Firstname",errorout]);}}if(typeof bfDeactivateField=='undefined'||!bfDeactivateField['ff_nm_Lastname[]']){errorout=ff_valuenotempty(document.ff_form2['ff_nm_Lastname[]'],"Please enter your last name.\n");
+error+=errorout
+if(typeof inlineErrorElements!='undefined'){inlineErrorElements.push(["Lastname",errorout]);}}if(typeof bfDeactivateField=='undefined'||!bfDeactivateField['ff_nm_Email[]']){errorout=ff_validemail(document.ff_form2['ff_nm_Email[]'],"Please enter your email address.\n");
+error+=errorout
+if(typeof inlineErrorElements!='undefined'){inlineErrorElements.push(["Email",errorout]);}}if(typeof bfDeactivateField=='undefined'||!bfDeactivateField['ff_nm_Massage[]']){errorout=ff_valuenotempty(document.ff_form2['ff_nm_Massage[]'],"Please type your message\n");
+error+=errorout
+if(typeof inlineErrorElements!='undefined'){inlineErrorElements.push(["Massage",errorout]);}}}if(error!=""&&document.getElementById('ff_capimgValue')){document.getElementById('ff_capimgValue').src='components/com_breezingforms/images/captcha/securimage_show6ab9.png?bfMathRandom='+Math.random();
+document.getElementById('bfCaptchaEntry').value="";}if(error!=""&&document.getElementById("bfSubmitButton")){document.getElementById("bfSubmitButton").disabled=false;}if(error!=""&&typeof JQuery!="undefined"){JQuery(".bfCustomSubmitButton").prop("disabled",false);}
+return error;}
+function ff_validate_nextpage(element,action)
+{if(typeof bfUseErrorAlerts!='undefined'){JQuery(".bfErrorMessage").html('');JQuery(".bfErrorMessage").css("display","none");}error=ff_validation(ff_currentpage);if(error!=''){if(typeof bfUseErrorAlerts=='undefined'){swal(error);}else{bfShowErrors(error);
+}ff_validationFocus('');}else{ff_switchpage(ff_currentpage+1);self.scrollTo(0,0);}}
+function ff_validate_prevpage(element,action)
+{if(typeof bfUseErrorAlerts!='undefined'){JQuery(".bfErrorMessage").html('');JQuery(".bfErrorMessage").css("display","none");}error=ff_validation(ff_currentpage);if(error!=''){if(typeof bfUseErrorAlerts=='undefined'){swal(error);}else{bfShowErrors(error);
+}ff_validationFocus('');}else{if(ff_currentpage>1){ff_switchpage(ff_currentpage-1);self.scrollTo(0,0);}}}
+function ff_submitForm()
+{if(document.getElementById('bfSubmitButton')){document.getElementById('bfSubmitButton').disabled=true;}if(typeof JQuery!='undefined'){JQuery('.bfCustomSubmitButton').prop('disabled',true);}bfCheckCaptcha();}function ff_submitForm2()
+{if(document.getElementById('bfSubmitButton')){document.getElementById('bfSubmitButton').disabled=true;}if(typeof JQuery!='undefined'){JQuery('.bfCustomSubmitButton').prop('disabled',true);}if(typeof bf_ajax_submit!='undefined'){bf_ajax_submit()}else{document.ff_form2.submit();}
+}
+function ff_validate_submit(element,action)
+{if(typeof bfUseErrorAlerts!='undefined'){JQuery(".bfErrorMessage").html('');JQuery(".bfErrorMessage").css("display","none");}error=ff_validation(0);if(error!=''){if(typeof bfUseErrorAlerts=='undefined'){swal(error);}else{bfShowErrors(error);}ff_validationFocus();
+}else
+ff_submitForm();}
+function ff_resetForm(element,action)
+{eval('document.'+ff_processor.form_id).reset();}
+//-->
+</script>
+<form data-ajax="false"  action="http://www.plumbingsolutionstt.com/contact" method="post" name="ff_form2" id="ff_form2" enctype="multipart/form-data" accept-charset="utf-8" onsubmit="return false;" class="bfQuickMode">
+<div id="bfPage1" class="bfPage">
+<span class="bfErrorMessage" style="display:none"></span>
+<div class="bfNoSection" id="Section_01">
+<section class="bfElemWrap bfLabelTop" id="bfElemWrap481">
+<label id="bfLabel481" for="ff_elem481">FIrst Name<span class="bfRequired">*</span> 
+</label>
+<input class="ff_elem" style="width:50%" type="text" name="ff_nm_Firstname[]" value="" id="ff_elem481"/>
+</section>
+<section class="bfElemWrap bfLabelTop" id="bfElemWrap482">
+<label id="bfLabel482" for="ff_elem482">Last Name<span class="bfRequired">*</span> 
+</label>
+<input class="ff_elem" style="width:50%" type="text" name="ff_nm_Lastname[]" value="" id="ff_elem482"/>
+</section>
+<section class="bfElemWrap bfLabelTop" id="bfElemWrap487">
+<label id="bfLabel487" for="ff_elem487">Phone</label>
+<input class="ff_elem" style="width:50%" type="text" name="ff_nm_Phone_01[]" value="" id="ff_elem487"/>
+</section>
+<section class="bfElemWrap bfLabelTop" id="bfElemWrap488">
+<label id="bfLabel488" for="ff_elem488">Email<span class="bfRequired">*</span> 
+</label>
+<input class="ff_elem" style="width:50%" type="text" name="ff_nm_Email[]" value="" id="ff_elem488"/>
+</section>
+<section class="bfElemWrap bfLabelTop" id="bfElemWrap489">
+<label id="bfLabel489" for="ff_elem489">Message<span class="bfRequired">*</span> 
+</label>
+<textarea cols="20" rows="5" class="ff_elem" style="width:80%;" name="ff_nm_Massage[]" id="ff_elem489"></textarea>
+</section>
+<section class="bfElemWrap bfLabelTop" id="bfElemWrap499">
+<span class="bfCaptcha">
+<img alt="" width="230" id="ff_capimgValue" class="ff_capimg" src="components/com_breezingforms/images/captcha/securimage_show.png"/>
+<br/><input  autocomplete="off" class="ff_elem" type="text" name="bfCaptchaEntry" id="bfCaptchaEntry" />
+<a href="#" class="ff_elem" onclick="document.getElementById('bfCaptchaEntry').value='';document.getElementById('bfCaptchaEntry').focus();document.getElementById('ff_capimgValue').src = 'components/com_breezingforms/images/captcha/securimage_show6ab9.png?bfMathRandom=' + Math.random(); return false"><img alt="captcha" src="components/com_breezingforms/images/captcha/refresh-captcha.png" /></a>
+</span>
+</section>
+</div>
+<button type="button" id="bfSubmitButton" class="bfSubmitButton button" onclick="if(typeof bf_htmltextareainit != 'undefined'){ bf_htmltextareainit() }if(document.getElementById('bfPaymentMethod')){document.getElementById('bfPaymentMethod').value='';};ff_validate_submit(this, 'click');" value="submit"><span>submit</span></button>
+</div><!-- bfPage end -->
+<div id="bfPage2" class="bfPage" style="display:none;">
+<section class="bfPageIntro">
+<p>Thank you for contacting us, we will respond to your message as soon as possible.</p>
+</section>
+<span class="bfErrorMessage" style="display:none"></span>
+</div>
+<noscript>Please turn on javascript to submit your data. Thank you!</noscript>
+<input type="hidden" name="ff_contentid" value="9"/>
+<input type="hidden" name="ff_applic" value=""/>
+<input type="hidden" name="ff_record_id" value=""/>
+<input type="hidden" name="ff_module_id" value="0"/>
+<input type="hidden" name="ff_form" value="2"/>
+<input type="hidden" name="ff_task" value="submit"/>
+<input type="hidden" name="ff_target" value="2"/>
+<input type="hidden" name="ff_align" value=""/>
+<input type="hidden" name="option" value="com_content"/>
+<input type="hidden" name="Itemid" value="107"/>
+<input type="hidden" name="id" value="9"/>
+</form>
+</div></div></div><div class="bfPage-bl"><div class="bfPage-br"><div class="bfPage-b"></div></div></div></div><!-- form end -->
+<div style="clear:both; display: block; text-align: center; margin-top: 20px;"><span style="margin: 0 auto;">Powered by BreezingForms</span></div></div>
+</p>
+
+<!-- Plugin Google Maps version 3.3 by Mike Reumer --><!-- fail nicely if the browser has no Javascript -->
+				<noscript><blockquote class='warning'><p><b>JavaScript must be enabled in order for you to use Google Maps.</b> <br/>However, it seems JavaScript is either disabled or not supported by your browser. <br/>To view Google Maps, enable JavaScript by changing your browser options, and then try again.</p></blockquote></noscript><a href="#" title="Print" onclick="javascript:googlemap9_bmulz_0.gmapPrint();return false;" rel="nofollow" class="mapprint"><img src="media/system/images/printButton.png" alt="Print" /></a><div id='mapplaceholder9_bmulz_0'><div id='mapbody9_bmulz_0' style="display: none; text-align:center"><div id="googlemap9_bmulz_0" class="map" style="margin-right: auto; margin-left: auto; width:100%; height:400px;"></div></div></div>
+<script type='text/javascript'>/*<![CDATA[*/
+google.maps.visualRefresh = false;
+var mapconfig9_bmulz_0 = {"debug":"0","signedin":"0","show":"1","mapclass":"","mapprint":"icon","loadmootools":"1","timeinterval":"500","googlewebsite":"maps.google.com","align":"center","width":"100%","height":"400px","effect":"none","deflatitude":"10.67060","deflongitude":"-61.53816","centerlat":"","centerlon":"","address":"","geoloc":"0","geocenter":"0","controltype":"UI","zoomtype":"3D-large","svcontrol":"1","returncontrol":"1","zoom":"16","corzoom":"0","minzoom":"0","maxzoom":"21","rotation":"1","zoomnew":"0","zoomwheel":"0","keyboard":"0","maptype":"Normal","showmaptype":"1","shownormalmaptype":"1","showsatellitemaptype":"1","showhybridmaptype":"1","showterrainmaptype":"1","showscale":"0","overview":"0","dragging":"1","marker":"1","traffic":"0","transit":"0","bicycle":"0","panoramio":"0","panominzoom":"none","panomaxzoom":"none","pano_userid":"","pano_tag":"","weather":"0","weathercloud":"0","weatherinfo":"1","weathertempunit":"celsius","weatherwindunit":"km","dir":"0","dirtype":"D","formdirtype":"1","avoidhighways":"0","avoidtoll":"0","diroptimize":"0","diralternatives":"0","showdir":"1","animdir":"0","animspeed":"1","animautostart":"0","animunit":"kilometers","formspeed":"0","formaddress":"0","formdir":"0","autocompl":"both","txtdir":"Directions: ","txtgetdir":"Get Directions","txtfrom":"From here","txtto":"To here","txtdiraddr":"Address: ","txt_driving":"","txt_avhighways":"","txt_avtoll":"","txt_walking":"","txt_bicycle":"","txt_transit":"","txt_optimize":"","txt_alternatives":"","dirdefault":"0","gotoaddr":"0","gotoaddrzoom":"0","gotoaddrtimeout":"5000","txtaddr":"Address: ##","erraddr":"Address ## not found!","txtgotoaddr":"Goto","clientgeotype":"google","lightbox":"0","txtlightbox":"Open lightbox","lbxcaption":"","lbxwidth":"500px","lbxheight":"700px","lbxcenterlat":"","lbxcenterlon":"","lbxzoom":"","sv":"none","svpano":"","svwidth":"100%","svheight":"300px","svautorotate":"0","svaddress":"1","kmlrenderer":"google","kmlsidebar":"none","kmlsbwidth":"200px","kmllightbox":"0","kmlhighlite":"{ \"color\": \"#aaffff\", \"opacity\": 0.3,  \"textcolor\": \"#000000\" }","proxy":"0","tilelayer":"","tilemethod":"","tileopacity":"1","tilebounds":"","tileminzoom":"0","tilemaxzoom":"19","twittername":"","twittertweets":"15","twittericon":"\/media\/plugin_googlemap3\/site\/Twitter\/twitter_map_icon.png","twitterline":"#ff0000ff","twitterlinewidth":"4","twitterstartloc":"0,0,0","lang":"en-GB","mapType":"normal","geocoded":0,"tolat":"","tolon":"","toaddress":"","description":"","tooltip":"","kml":[],"kmlsb":[],"layer":[],"lookat":[],"camera":[],"searchtext":"","latitude":"10.67060","longitude":"-61.53816","waypoints":[],"mapnm":"9_bmulz_0","descr":"0","geoxmloptions":{"titlestyle":" class=kmlinfoheader ","descstyle":" class=kmlinfodesc ","veryquiet":true,"quiet":true,"iwmethod":"click","sortbyname":null,"linktarget":"_self","linkmethod":"dblclick","hilite":{"color":"#aaffff","opacity":0.3,"textcolor":"#000000"},"lang":{"txtdir":"Directions: ","txtto":"To here","txtfrom":"From here","txtsrchnrby":"Search nearby","txtzoomhere":"Zoom Here","txtaddrstart":"Start address:","txtgetdir":"Go","txtback":"\u00ab Back","txtsearchnearby":"Search nearby: e.g. pizza","txtsearch":"Go"},"inputsize":"25"},"icontype":""};
+var mapstyled9_bmulz_0 = null;
+var googlemap9_bmulz_0 = new GoogleMaps('9_bmulz_0', mapconfig9_bmulz_0, mapstyled9_bmulz_0);
+/*]]>*/</script>	</div>
+
+	
+							</div>
+
+</div><!--end of content-->
+</div> 
+<!--end of wrapper-->
+</div>
+</div> 
+
+
+<!--CONTAINER LOWER CONTENT-->
+<div class="row-fluid Container LowerContent">
+<div class="span12">
+	 
+<!--Wrapper-->
+<div class="row-fluid wrapper">
+<!--Sub Content-->
+<div class="span12 subContent">
+			<div class="moduletable">
+
+		
+			
+
+<div class="custom"  >
+	<div class="row-fluid complanyLogosArea">
+<div class="span2"><img src="images/photos/logos/plumbing-solution-sanitization-division.png" alt="plumbing solution sanitization division logo" /></div>
+<div class="span2"><img src="images/photos/logos/byoplanet.png" alt="byoplanet logo" /></div>
+<div class="span2"><img src="images/photos/logos/viega.png" alt="viega logo" /></div>
+<div class="span2"><img src="images/photos/logos/kohler.png" alt="kohler logo" /></div>
+<div class="span2"><img src="images/photos/logos/duravit.png" alt="duravit logo" /></div>
+<div class="span2"><img src="images/photos/logos/american-standard.png" alt="american standard" /></div>
+</div></div>
+
+		</div>
+
+	
+</div><!--end of sub content-->
+</div> 
+<!--end of wrapper-->
+	
+</div>
+</div>
+
+
+
+<!--CONTAINER LOWER FOOTER-->
+<div class="row-fluid Container LowerFooter">
+  <!--Wrapper-->
+<div class="row-fluid wrapper">
+<!--Footer bottom-->
+<div class="span12 footerTop">
+			<div class="moduletable">
+
+		
+			
+
+<div class="custom"  >
+	<h3 style="text-align: left;">Members of:</h3>
+<div class="row-fluid membersLogosArea">
+<div class="span3"><img src="images/photos/members/subcontractors-association-of-trinidad-and-tobago.png" alt="Subcontractors Association of Trinidad and Tobago logo" />
+<p>Subcontractors Association of Trinidad and Tobago</p>
+</div>
+<div class="span3"><img src="images/photos/members/trinidad-and-tobago-contractors-association.png" alt="Trinidad and Tobago Contractors Association logo" />
+<p>Trinidad and Tobago Contractors Association</p>
+</div>
+<div class="span3"><img src="images/photos/members/world-plumbing-council.png" alt="World Plumbing Council logo" />
+<p>World Plumbing Council</p>
+</div>
+<div class="span3"><img src="images/photos/members/chamber-of-commerce.png" alt="Chambers of Commerce logo" />
+<p>Chambers of Commerce</p>
+</div>
+</div></div>
+
+		</div>
+
+	
+</div><!--end of footer bottom-->
+</div> 
+<!--end of wrapper-->
+<!--Wrapper-->
+<div class="row-fluid wrapper">
+<!--Footer bottom-->
+<div class="span12 footerBottom">
+	
+</div><!--end of footer bottom-->
+</div> 
+<!--end of wrapper-->
+
+  
+<!--CONTAINER COPYRIGHT FOOTER-->  
+  <div class="row-fluid Container copyrightFooter">
+    <div class="span12 copyright">		<div class="moduletable">
+
+		
+			<div class="footer1">Copyright &#169; 2023 Plumbing Solutions. All Rights Reserved.</div>
+<div class="footer2"><a href="http://www.webvatize.com/" target="_blank">Website designed by Asap Studio.</a></div>
+
+		</div>
+
+	</div>
+  </div> 
+  
+  
+</div>
+
+
+
+
+
+</body>
+->
+</html>
